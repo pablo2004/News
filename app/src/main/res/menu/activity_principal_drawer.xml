@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/informacion_publica"
+            android:title="SOLICITUD DE INFORMACIÓN PÚBLICA" />
+        <item
+            android:id="@+id/proximas_actividades"
+            android:title="PRÓXIMAS ACTIVIDADES" />
+
+        <item
+            android:id="@+id/sesiones_vivo"
+            android:title="SESIONES EN VIVO" />
+
+    </group>
+
+
+</menu>

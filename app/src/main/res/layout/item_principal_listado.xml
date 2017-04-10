@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView style="@style/cardPrincipal"
+    app:contentPadding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/principal_listado_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/extracto"
+            style="@style/textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"
+            android:layout_alignTop="@+id/imagen"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_toEndOf="@+id/imagen"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/nombre"
+            style="@style/textBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/nombre"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

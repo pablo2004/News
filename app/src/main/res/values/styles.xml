@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="textBold">
+        <item name="fontPath">fonts/Montserrat-Bold.ttf</item>
+    </style>
+
+    <style name="textRegular">
+        <item name="fontPath">fonts/Montserrat-Regular.ttf</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="cardPrincipal">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="navigation">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/text_menu</item>
+    </style>
+
+    <style name="iconToolbar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:tint">@color/colorText</item>
+    </style>
+
+</resources>

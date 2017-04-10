@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">C. Tamaulipas</string>
+    <string name="title_activity_principal">Sala de Prensa</string>
+
+    <string name="navigation_drawer_open">Abrir navegacion</string>
+    <string name="navigation_drawer_close">Cerrar navegacion</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
